@@ -1,4 +1,4 @@
-package DigitalInovationOne.GOF;
+package DigitalInovationOne.GOF.Singleton;
 
 /**
  * Singleton Eager(apressado):
