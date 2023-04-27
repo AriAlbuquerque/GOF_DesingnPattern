@@ -1,5 +1,6 @@
 package DigitalInovationOne.GOF;
 
+import DigitalInovationOne.GOF.Facade.Facade;
 import DigitalInovationOne.GOF.Singleton.SingletonEager;
 import DigitalInovationOne.GOF.Singleton.SingletonLazy;
 import DigitalInovationOne.GOF.Singleton.SingletonLazyHolder;
@@ -51,6 +52,10 @@ public class Test {
         // Facade;
         // Testes relacionados ao Desingn Pattern Facade:
 
+        Facade facade = new Facade();
+            facade.migrarCliente("Nicolas", "03472000");
+        }
+
 
     }
-}
+

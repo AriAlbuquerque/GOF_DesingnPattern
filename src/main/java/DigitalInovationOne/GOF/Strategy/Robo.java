@@ -6,7 +6,8 @@ public class Robo {
     public void setStrategy(Comportamento strategy) {
         this.strategy = strategy;
     }
-    public void mover(){
+
+    public void mover() {
         strategy.mover();
     }
 }

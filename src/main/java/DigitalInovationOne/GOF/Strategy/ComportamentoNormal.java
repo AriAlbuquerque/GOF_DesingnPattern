@@ -1,8 +1,8 @@
 package DigitalInovationOne.GOF.Strategy;
 
-public class ComportamentoNormal implements Comportamento{
+public class ComportamentoNormal implements Comportamento {
     @Override
-    public void mover(){
+    public void mover() {
         System.out.println("Movendo-se Normalmente...");
     }
 
